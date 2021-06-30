@@ -31,7 +31,7 @@ function App() {
       <div className="container">
        <h4>Color Generatorr</h4>
     <form onSubmit={handleSubmit}>
-      <input type="text" id="color" onChange={handleChange} value={color} placeholder="Enter Hex Color"/>
+      <input type="text" id="color" onChange={handleChange} value={color} placeholder="#16a085"/>
 
        
        <button className="btn" type="submit">Generate</button>
