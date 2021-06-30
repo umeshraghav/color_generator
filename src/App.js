@@ -10,7 +10,7 @@ function App() {
 
 
   const [color, setcolor] = useState("")
-  const [list, setlist] = useState(new Values('#f15025').all(10))
+  const [list, setlist] = useState(new Values('#16a085').all(10))
 
 
 
